@@ -2,21 +2,21 @@
   "name": "ALI-MD",
   "description": "Javascript WhatsApp bot made by ALI",
   "logo": "https://cdn.ironman.my.id/i/2du3i5.jpg",
-  "keywords": ["ALI-MD"],
+  "keywords": ["ANONYMOUS"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "vNZxnJSC#EGjpc8sW3kG-AB6sT_WiUuOtDNw6hdzpqngQnxv-IGQ",
+      "description": "uYJSWKDY#KWExGcp4c0V1lBeWO0bm3fDApr7yJ47mPKZ1NJfajfI",
       "required": true,
-      "value": ""
+      "value": "uYJSWKDY#KWExGcp4c0V1lBeWO0bm3fDApr7yJ47mPKZ1NJfajfI"
     },  
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪"
+      "value": "ANONYMOUS✓✓"
     }, 
       
     "PREFIX": {
@@ -42,13 +42,13 @@
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": true,
-      "value": "false"
+      "value": "teue"
     }, 
 
     "AUTO_STICKER": {
@@ -73,13 +73,13 @@
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
-      "value": "false"
+      "value": "teue"
     }, 
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW ALI-MD 🍒*"
+      "value": "*SEEN YOUR STATUS JUST NOW ANONYMOUS🍒*"
    
      }, 
 
@@ -110,26 +110,26 @@
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "teue"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": false,
-      "value": "false"
+      "required": teue,
+      "value": "true"
     },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
       
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
-      "required": false,
+      "required": true,
       "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     }, 
     
