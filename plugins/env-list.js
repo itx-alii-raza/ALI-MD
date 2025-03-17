@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪* 〕━━┈⊷
+        let envSettings = `╭━━━〔 *RAHEEL-𝐌𝐃ှ᪳𓆪* 〕━━┈⊷
 ┃▸╭───────────···๏
 ┃▸├❒ *⚙️ENV SETTINGS⚙️*
 ┃▸└───────────···๏
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://cdn.ironman.my.id/i/2du3i5.jpg' }, // Image URL
+                image: { url: 'https://i.ibb.co/Zp4sXy4B/lordali.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363318387454868@newsletter',
-                        newsletterName: "☇ 𝐀ɭι̇ι̇ 𝐌Ɗ  ⃪🤖͎᪳᪳𝆺𝅥",
+                        newsletterName: "☇𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ  ⃪🤖͎᪳᪳𝆺𝅥",
                         serverMessageId: 143
                     }
                 }
