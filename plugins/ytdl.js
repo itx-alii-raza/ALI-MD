@@ -4,7 +4,7 @@ cmd({ pattern: "ong", alias: ["musiic", "mp04"], desc: "Search and download a so
 
 let videoUrl = q;
     if (!q.includes("youtube.com") && !q.includes("youtu.be")) {
-        reply("*🎐 𝐀ɭīī 𝐌Ɗ 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐒𝐎𝐍𝐆...*");
+        reply("*🎐 𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐒𝐎𝐍𝐆...*");
         const searchResults = await yts(q);
         if (!searchResults.videos.length) return reply("No results found for your query.");
         videoUrl = searchResults.videos[0].url;
@@ -32,7 +32,7 @@ cmd({ pattern: "music", alias: ["audio", "song"], desc: "Search and download aud
 
 let videoUrl = q;
     if (!q.includes("youtube.com") && !q.includes("youtu.be")) {
-        reply("*🎐 𝐀ɭīī 𝐌Ɗ 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐒𝐎𝐍𝐆...*");
+        reply("*🎐 𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐒𝐎𝐍𝐆...*");
         const searchResults = await yts(q);
         if (!searchResults.videos.length) return reply("No results found for your query.");
         videoUrl = searchResults.videos[0].url;
