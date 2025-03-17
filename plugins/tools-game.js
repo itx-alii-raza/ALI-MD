@@ -21,7 +21,7 @@ cmd({
     const _0xb13dc7 = ["Red", 'Green', "Blue", "Yellow", 'Orange', 'Purple', 'Pink', 'Brown', 'Black', "White", "Gray", "Cyan", "Magenta", 'Violet', "Indigo", "Teal", 'Lavender', "Turquoise"];
     const _0x256030 = '#' + Math.floor(Math.random() * 0xffffff).toString(0x10);
     const _0x5d0cef = _0xb13dc7[Math.floor(Math.random() * _0xb13dc7.length)];
-    _0x82e9b2("🎨 *\`ALI MD RANDOM COLOUR:\`* \n\nColour Name: " + _0x5d0cef + "\nCode: " + _0x256030);
+    _0x82e9b2("🎨 *\`RAHEEL MD RANDOM COLOUR:\`* \n\nColour Name: " + _0x5d0cef + "\nCode: " + _0x256030);
   } catch (_0x563257) {
     console.error("Error in .randomcolor command:", _0x563257);
     _0x82e9b2("❌ An error occurred while generating the random color.");
