@@ -83,7 +83,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡ .ʙᴀɪsᴄᴏᴘᴇ*
 *├⬡ .ɢɪɴɪsɪsɪʟᴀ*
 *┕──────────────────❒*
-*╭────❒⁠⁠⁠⁠* *🏮 EMPIRE ALI 🏮* *❒⁠⁠⁠⁠* 
+*╭────❒⁠⁠⁠⁠* *🏮 EMPIRE RAHEEL 🏮* *❒⁠⁠⁠⁠* 
 *├⬡ .ғᴀᴍɪʟʏ*
 *├⬡ .ᴄʜᴀɴɴᴇʟ*
 *├⬡ .sᴜᴘᴘᴏʀᴛ*
@@ -294,7 +294,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡ .ᴅᴀɪʟʏꜰᴀᴄᴛ*
 *├⬡ .ᴍɪɴᴜᴛᴏʀ*
 *┕──────────────────❒*
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ*`
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL*`
 
 await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
                              contextInfo: {
@@ -303,7 +303,7 @@ await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363318387454868@newsletter',
-      newsletterName: '𓆩ྀི͛𝐀ɭīī 𝐌Ɗ 𝚩❍𝐓 𝐌𝛆፝֟፝֟ƞ̽ʊྀི̊𓆪͛',
+      newsletterName: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝚩❍𝐓',
       serverMessageId: 999
     }
   }
