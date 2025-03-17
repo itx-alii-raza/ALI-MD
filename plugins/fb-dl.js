@@ -52,7 +52,7 @@ cmd({
     // Send the video with details
     await conn.sendMessage(from, {
       video: videoBuffer,
-      caption: `*🫟𝐀ɭīī 𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
+      caption: `*𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
         `🔖 *TITLE*: ${title}\n` +
         `📏 *QUALITY*: ${downloads.find(d => d.quality === "HD") ? "HD" : "SD"}\n\n` +
         `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ*`,
@@ -62,7 +62,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: '『 𝐀ɭīī 𝐌Ɗ 𝐅𝐁 𝐃𝐋 』',
+          newsletterName: '『 𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐅𝐁 𝐃𝐋 』',
           serverMessageId: 143
         }
       }
