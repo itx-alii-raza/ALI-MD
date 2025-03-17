@@ -14,10 +14,10 @@ cmd({
 }, async (conn, mek, m, { reply }) => {
     try {
         // Define the channel link inside the command
-        const channelLink = "https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h";
+        const channelLink = "https://whatsapp.com/channel/0029Vb5DD4s8aKvQg0TVPN3B";
 
         // Send the channel link to the user
-        reply(`*ʜᴇʀᴇ's ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴡʜᴀᴛsᴀᴘᴘ ᴀʟɪ ᴄʜᴀɴɴᴇʟ*:\n\n${channelLink}\n\n> *ᴊᴏɪɴ ᴜs ᴛᴏ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ʟᴀᴛᴇsᴛ ɴᴇᴡs ᴀɴᴅ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs🧞‍♂️.*`);
+        reply(`*ʜᴇʀᴇ's ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴡʜᴀᴛsᴀᴘᴘ RAHEEL ᴄʜᴀɴɴᴇʟ*:\n\n${channelLink}\n\n> *ᴊᴏɪɴ ᴜs ᴛᴏ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ʟᴀᴛᴇsᴛ ɴᴇᴡs ᴀɴᴅ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs🧞‍♂️.*`);
     } catch (error) {
         // Log and notify about any errors
         console.error("Error sending channel link:", error.message);
@@ -35,10 +35,10 @@ cmd({
 }, async (conn, mek, m, { reply }) => {
     try {
         // Define the support link inside the command
-        const supportLink = "https://chat.whatsapp.com/Lx7sDv7jSy0CCTm5AliPdq";
+        const supportLink = "https://whatsapp.com/channel/0029Vb5DD4s8aKvQg0TVPN3B";
 
         // Send the support link to the user
-        reply(`*ɴᴇᴇᴅ ʜᴇʟᴘ ᴏʀ ʜᴀᴠᴇ ǫᴜᴇsᴛɪᴏɴs ? ᴊᴏɪɴ ᴀʟɪ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🪀*\n\n${supportLink}\n\n
+        reply(`*ɴᴇᴇᴅ ʜᴇʟᴘ ᴏʀ ʜᴀᴠᴇ ǫᴜᴇsᴛɪᴏɴs ? ᴊᴏɪɴ RAHEEL sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🪀*\n\n${supportLink}\n\n
 > *ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀsᴋ ʏᴏᴜʀ ǫᴜᴇsᴛɪᴏɴs ᴏʀ ʀᴇᴘᴏʀᴛ ɪssᴜᴇs🙇🏻‍♂️.*.`);
     } catch (error) {
         // Log and notify about any errors
