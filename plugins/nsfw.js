@@ -15,7 +15,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     try {
         // Liste des options NSFW
         const nsfwList = `
-*•ALI MD V1 NSFW🤤🔞•*
+*•RAHEEL MD V1 NSFW🤤🔞•*
 
 1️⃣ *EJACULATION*
 2️⃣ *PENIS*
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
 *_Simply type the number corresponding to the option you'd like to choose._*`;
 
         // URL de l'image à envoyer
-        const imageUrl = 'https://i.ibb.co/j8hv83f/Manul-Ofc-X.jpg';
+        const imageUrl = 'https://i.ibb.co/Zp4sXy4B/lordali.jpg';
 
         // Envoi de la liste avec l'image et la légende
         await conn.sendMessage(from, {
