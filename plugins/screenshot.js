@@ -32,14 +32,14 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*ALI SS WEB*\n\n> *© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴀʟɪ-ᴍᴅ🎗️*",
+      caption: "*RAHEEL SS WEB*\n\n> *© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ RAHEEL-ᴍᴅ🎗️*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
+          newsletterName: "𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 🍁",
           serverMessageId: 143,
         },
       },
