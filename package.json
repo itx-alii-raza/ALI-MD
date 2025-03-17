@@ -1,11 +1,11 @@
 {
-  "name": "ALI-MD",
+  "name": "RAHEEL-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By ALI",
+  "description": "A WhatsApp Bot Created By RAHEEL",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
-    "stop": "pm2 stop ALI-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name RAHEEL-MD",
+    "stop": "pm2 stop RAHEEL-MD",
     "restart": "pm2 restart ALI-MD"
   },
   "dependencies": {
