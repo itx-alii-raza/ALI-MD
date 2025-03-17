@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╔═══〔 *𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪* 〕═══❒
+        let ytmsg = `╔═══〔 *𝐑𝐀𝐇𝐄𝐄𝐋* 〕═══❒
 ║╭───────────────◆  
 ║│ *❍ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*
 ║╰───────────────◆
@@ -54,7 +54,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `*${yts.title}*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ🎐*`
+            caption: `*${yts.title}*\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL🎐*`
         }, { quoted: mek });
 
     } catch (e) {
@@ -105,7 +105,7 @@ const yt = await ytsearch(q);
        // document: { url: data.result.downloadUrl }, 
       ///  mimetype: "audio/mpeg", 
       //  fileName: `${data.result.title}.mp3`, 
-      //  caption: `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ🎐*`
+      //  caption: `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL🎐*`
   //  }, { quoted: mek });
 
 } catch (e) {
