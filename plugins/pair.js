@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *ALI-MD PAIR COMPLETED*";
+        const doneMessage = "> *RAHEEL-MD PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n> *PAIRING CODE IS: ${pairingCode}*`);
