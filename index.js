@@ -46,7 +46,7 @@ const {
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
   
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['923248394167']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -69,7 +69,7 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('9AYVjCyL#Bu3WU9egI5rl0gKWelXU_ipdReF5Bo1RPq4rtJ27t1s')
 const sessdata = config.SESSION_ID.replace("ALI-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
@@ -115,13 +115,13 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 𝐀𝐋𝐈-𝐌𝐃 𝐁𝐎𝐓*
+  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 𝐑𝐀𝐇𝐄𝐄𝐋-𝐌𝐃 𝐁𝐎𝐓*
 *𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
   
 ╭───━━━━───━━━━──┉┈⚆
 │• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •
 │• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •
-│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽
+│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐑𝐀𝐇𝐄𝐄𝐋
 │• ⏰𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 : ${online}
 │• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}
 │• 🪾𝐌𝐎𝐃𝐄 : ${mode}
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const ali = ('923003588997');
+    const ali = ('923248394167');
     let isCreator = [udp, ali, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -259,33 +259,33 @@ const port = process.env.PORT || 9090;
 					return;
 				}
  //================ownerreact==============
-    if(senderNumber.includes("923003588997")){
+    if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🪾")
+  m.react("😈")
     }
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🫩")
+  m.react("☠")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🫆")
+  m.react("👑")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🫜")
+  m.react("😎")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🪉")
+  m.react("👻")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🪏")
+  m.react("😝")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("923248394167")){
   if(isReact) return
-  m.react("🫟")
+  m.react("😇")
 	  }
   //==========public react============//
   // Auto React 
@@ -312,7 +312,7 @@ if(senderNumber.includes("923003588997")){
 if (!isReact && senderNumber !== botNumber) {
     if (config.CUSTOM_REACT === 'true') {
         // Use custom emojis from the configuration
-        const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,😂,👍🏻,🙂,😔').split(',');
+        const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,😂,😇,🙂,😔').split(',');
         const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
         m.react(randomReaction);
     }
@@ -806,7 +806,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ALI MD STARTED ✅");
+  res.send("RAHEEL MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
