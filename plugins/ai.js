@@ -63,7 +63,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐀𝐈 🤖',
+                    newsletterName: 'RAHEEL 𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }
@@ -138,7 +138,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐀𝐈 🤖',
+                    newsletterName: 'RAHEEL 𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }
