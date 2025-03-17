@@ -49,21 +49,21 @@ cmd({
     // Send the video with details
     await conn.sendMessage(from, {
       video: videoBuffer,
-      caption: `*🫟𝐀ɭīī 𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
+      caption: `*𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
         `🔖 *ᴛɪᴛʟᴇ*: ${title || "No title"}\n` +
         `👤 *ᴀᴜᴛʜᴏʀ*: ${author.nickname}\n` +
         `♥️ *ʟɪᴋᴇs*: ${metrics.digg_count}\n` +
         `💬 *ᴄᴏᴍᴍᴇɴᴛs*: ${metrics.comment_count}\n` +
         `♻️ *sʜᴀʀᴇs*: ${metrics.share_count}\n` +
         `📥 *ᴅᴏᴡɴʟᴏᴀᴅs*: ${metrics.download_count}\n\n` +
-        `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ*`,
+        `> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL*`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: '『 𝐀ɭīī 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ 』',
+          newsletterName: '『 𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ 』',
           serverMessageId: 143
         }
       }
