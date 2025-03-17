@@ -27,7 +27,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬ALI-MD-V1 MOVIE SERCH🎬*
+*🎬RAHEEL-MD-V1 MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -43,14 +43,14 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ-ᴍᴅ👑*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL-ᴍᴅ👑*
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY ALI TECH`
+            caption: `${movieInfo}\n> CREATED BY RAHEEL TECH`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
