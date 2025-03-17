@@ -42,7 +42,7 @@ cmd({
         const formattedAmount = new Intl.NumberFormat().format(amount);
         const formattedResult = new Intl.NumberFormat().format(convertedAmount);
 
-        const message = `*🌍 ᴀʟɪ-ᴍᴅ- ᴄᴜʀʀᴇɴᴄʏ ᴄᴏɴᴠᴇʀsɪᴏɴ 💵*\n\n` +
+        const message = `*🌍 RAHEEL-ᴍᴅ- ᴄᴜʀʀᴇɴᴄʏ ᴄᴏɴᴠᴇʀsɪᴏɴ 💵*\n\n` +
             `*💲 ғʀᴏᴍ:* ${formattedAmount} ${fromCurrency}\n` +
             `*🏷️ ᴛᴏ:* ${formattedResult} ${toCurrency}\n` +
             `*💰 ʀᴀᴛᴇ:* 1 ${fromCurrency} = ${rates[toCurrency]} ${toCurrency}\n\n` +
