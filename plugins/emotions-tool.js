@@ -316,7 +316,7 @@ cmd({
 },
 async (conn, mek, m, { from, reply }) => {
     try {
-        const loadingMessage = await conn.sendMessage(from, { text: 'ALI-XMD☠️' });
+        const loadingMessage = await conn.sendMessage(from, { text: 'RAHEEL-XMD☠️' });
         
         // Define the ASCII art messages
         const asciiMessages = [
