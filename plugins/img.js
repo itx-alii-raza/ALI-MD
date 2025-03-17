@@ -93,9 +93,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 *💗 Image ${i + 1} from your search! 💗*
 
- *©  𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 ALI 👾*
+ *©  𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 RAHEEL 👾*
 
-> 🥷🏽 ALI MD V1 🥷🏽`
+> 🥷🏽 RAHEEL MD V1 🥷🏽`
 }, { quoted: mek });
 }
 
