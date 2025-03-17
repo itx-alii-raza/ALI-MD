@@ -54,14 +54,14 @@ cmd({
         const progressBar = "⭐".repeat(progressPercent / 10) + "⚪".repeat(10 - progressPercent / 10);
 
         // URL of the image for the rank
-        const levelImageURL = "https://i.ibb.co/60pdvSxw/mrfrankofc.jpg"; // Replace with your desired image URL
+        const levelImageURL = "https://i.ibb.co/Zp4sXy4B/lordali.jpg"; // Replace with your desired image URL
         
         // Send rank information in text and image
         const caption = `📊 *Rank Information*\n\n👤 *User*: @${
             target.split("@")[0]
         }\n🔝 *Level*: ${level}\n🔄 *Progression*: ${progressPercent}%\n${progressBar}\n📩 *Messages Sent*: ${
             userData.messages
-        }\n✨ *XP*: ${userData.experience}\n\n> 🧞‍♂️POWERED BY ALI🧞‍♂️`;
+        }\n✨ *XP*: ${userData.experience}\n\n> 🧞‍♂️POWERED BY RAHEEL🧞‍♂️`;
 
         // Send the image and caption together
         await conn.sendMessage(
