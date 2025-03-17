@@ -31,7 +31,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*MADE WITH ♥ ALI-MD-V1*`;
+*MADE WITH ♥ RAHEEL-MD-V1*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
