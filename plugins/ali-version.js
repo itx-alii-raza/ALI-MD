@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/itx-alii-raza/ALI-MD';
+    const githubRepo = 'https://github.com/MIANG-8';
 
     // Check update status
-    let updateMessage = `*✅ ʏᴏᴜʀ ᴀʟɪ-ᴍᴅ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
+    let updateMessage = `*✅ ʏᴏᴜʀ RAHEEL-ᴍᴅ ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!*`;
     if (localVersion !== latestVersion) {
-      updateMessage = `*😵‍💫 ʏᴏᴜʀ ᴀʟɪ-ᴍᴅ ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
+      updateMessage = `*😵‍💫 ʏᴏᴜʀ RAHEEL-ᴍᴅ ʙᴏᴛ ɪs ᴏᴜᴛᴅᴀᴛᴇᴅ!*
 🔹 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}
 🔹 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}
 
@@ -73,7 +73,7 @@ cmd({
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://cdn.ironman.my.id/i/2du3i5.jpg' },
+      image: { url: 'https://i.ibb.co/Zp4sXy4B/lordali.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
@@ -81,7 +81,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363318387454868@newsletter',
-          newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+          newsletterName: 'RAHEEL 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
           serverMessageId: 143
         }
       }
