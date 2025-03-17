@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *ALI*
+*|* *RAHEEL*
 
-> *ALI-MD-V1 REPO:*
-*|* https://github.com/itx-alii-raza/ALI-MD
+> *RAHEEL-MD-V1 REPO:*
+*|* https://github.com/MIANG-8
 
 > *SUPPORT GROUP:*
-*|* https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
+*|* https://whatsapp.com/channel/0029Vb5DD4s8aKvQg0TVPN3B
 *╰──────────────●●►*
 
-> *CREATED BY ALI TECH*
+> *CREATED BY RAHEEL TECH*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -35,15 +35,15 @@ await conn.sendMessage(from, { text: repo ,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363318387454868@newsletter',
-      newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 🍁",
+      newsletterName: "𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 🍁",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
+title: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 🍁',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/itx-alii-raza/ALI-MD" ,
-thumbnailUrl: "https://i.ibb.co/8Dzbtwj2/mrfrankofc.jpg" ,
+sourceUrl: "https://github.com/MIANG-8" ,
+thumbnailUrl: "https://i.ibb.co/Zp4sXy4B/lordali.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
@@ -70,7 +70,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/itx-alii-raza/ALI-MD';
+    const githubRepoURL = 'https://github.com/MIANG-8';
 
     try {
         // Extract username and repo name from the URL
@@ -86,21 +86,21 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐀𝐋𝐈-𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐑𝐀𝐇𝐄𝐄𝐋-𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
 > *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
 *\`REPO LINK:\`📮*
-> https://github.com/itx-alii-raza/ALI-MD/fork
+> https://github.com/MIANG-8/fork
 
 *\`BOT GC LINK:\`🪀*
-> https://tinyurl.com/2acmqaqz
+> https://whatsapp.com/channel/0029Vb5DD4s8aKvQg0TVPN3B
 
 *\`BOT NAME:\`🤖*
 > ${repoData.name}
 
 *\`OWNER NAME:\`👨‍💻*
-> 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽
+> 𝐑𝐀𝐇𝐄𝐄𝐋
 
 *\`STARS:\`🌟*
 > ${repoData.stargazers_count}
@@ -111,11 +111,11 @@ async (conn, mek, m, { from, reply }) => {
 *\`DESCRIPTION:\`📑*
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© POWERED BY ALI* 🎐`;
+\n> *© POWERED BY RAHEEL* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/heu4tc.png` },
+            image: { url: `https://i.ibb.co/Zp4sXy4B/lordali.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -123,7 +123,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -140,7 +140,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
