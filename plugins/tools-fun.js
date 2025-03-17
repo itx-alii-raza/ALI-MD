@@ -18,7 +18,7 @@ cmd({
       return reply("❌ Failed to fetch a joke. Please try again.");
     }
 
-    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ 🎐*`;
+    const jokeMessage = `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL 🎐*`;
 
     return reply(jokeMessage);
   } catch (error) {
@@ -166,7 +166,7 @@ cmd({
       return reply("❌ Failed to fetch a fun fact. Please try again.");
     }
 
-    const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ 🎐*`;
+    const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL 🎐*`;
 
     return reply(factMessage);
   } catch (error) {
@@ -198,7 +198,7 @@ async (conn, mek, m, { from, reply }) => {
         console.log('JSON response:', json);
 
         // Format the pickup line message
-        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ 🎐*`;
+        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL 🎐*`;
 
         // Send the pickup line to the chat
         await conn.sendMessage(from, { text: pickupLine }, { quoted: m });
