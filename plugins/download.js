@@ -38,7 +38,7 @@ cmd({
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭════ 〔 *𝐀ɭīī 𝐌Ɗ* 〕════❐\n`
+    const caption = `╭════ 〔 *𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ* 〕════❐\n`
       + `┃▸ *Description:* ${desc || "No description"}\n`
       + `╰═════════════════❐\n\n`
       + `📹 *Download Options:*\n`
@@ -160,11 +160,11 @@ cmd({
       react: { text: "⬆️", key: m.key }
     });
 
-    const caption = `╭════ 〔 *𝐀ɭīī 𝐌Ɗ* 〕════❐\n`
+    const caption = `╭════ 〔 *𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ* 〕════❐\n`
       + `┃▢ *ғɪʟᴇ ɴᴀᴍᴇ:* ${file_name}\n`
       + `┃▢ *ғɪʟᴇ ᴛʏᴘᴇ:* ${mime_type}\n`
       + `╰═════════════════❐\n\n`
-      + `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ ᴍᴅ🎐*`;
+      + `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL ᴍᴅ🎐*`;
 
     await conn.sendMessage(from, {
       document: { url: dl_link },
@@ -210,14 +210,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭═══ 〔 *𝐀ɭīī 𝐌Ɗ 𝐀𝐏𝐊* 〕═══❐
+    const caption = `╭═══ 〔 *𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐀𝐏𝐊* 〕═══❐
 ┃ 🏷️ *ɴᴀᴍᴇ:* ${app.name}
 ┃ 📦 *sɪᴢᴇ:* ${appSize} MB
 ┃ 📮 *ᴘᴀᴄᴋᴀɢᴇ:* ${app.package}
 ┃ 📅 *ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ:* ${app.updated}
 ┃ 👨🏻‍💻 *ᴅᴇᴠᴇʟᴏᴘᴇʀ:* ${app.developer.name}
 ╰══════════════════❐
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ ᴍᴅ🎐*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL ᴍᴅ🎐*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -268,7 +268,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ ᴍᴅ🎐*"
+        caption: "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEL ᴍᴅ🎐*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
