@@ -67,7 +67,7 @@ async function sendDailyFact(conn, reply) {
         const fact = response.data.text;
 
         // Send the fact back to the user
-        reply(`📚 Here's a ${theme} fact for you on ${dayOfWeek}:\n\n*${fact}*\n\n> POWERED BY KERM*`);
+        reply(`📚 Here's a ${theme} fact for you on ${dayOfWeek}:\n\n*${fact}*\n\n> POWERED BY RAHEEL*`);
         
     } catch (error) {
         console.error("Error fetching daily fact:", error.message);
