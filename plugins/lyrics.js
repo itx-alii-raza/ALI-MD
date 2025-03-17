@@ -51,7 +51,7 @@ cmd({
         }
 
         // Send the lyrics back to the chat
-        reply(`> 🍓ALI LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`);
+        reply(`> 🍓RAHEEL LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`);
     } catch (error) {
         console.error("Error fetching lyrics:", error.message);
 
@@ -114,7 +114,7 @@ cmd({
 
         // Send message with lyrics and buttons
         const buttonMessage = {
-            text: `> 🍓ALI LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`,
+            text: `> 🍓RAHEEL LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`,
             footer: 'Lyrics provided by lyrics.ovh',
             buttons: buttons,
             headerType: 1
