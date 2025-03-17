@@ -3,8 +3,8 @@ const axios = require('axios'); // For making HTTP requests to GitHub API
 const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
-const REPO_OWNER = 'itx-alii-raza';
-const REPO_NAME = 'ALI-MD';
+const REPO_OWNER = 'MIANG-8';
+const REPO_NAME = 'RAHEEL-MD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
 // GitHub API base URL
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, reply }) => {
         pluginListCache = plugins;
 
         // Construct a list of plugins
-        let pluginList = "📂 *ALI MD V1 PLUGINS:*\n\n";
+        let pluginList = "📂 *RAHEEL MD V1 PLUGINS:*\n\n";
         plugins.forEach((plugin, index) => {
             pluginList += `${index + 1}. ${plugin.name}\n> `; // Add plugin name to the list
         });
@@ -99,7 +99,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
 
         // Status message with image and caption
         const statusMessage = {
-            image: { url: `https://i.ibb.co/8Dzbtwj2/mrfrankofc.jpg` }, // Replace with your image URL
+            image: { url: `https://i.ibb.co/Zp4sXy4B/lordali.jpg` }, // Replace with your image URL
             caption: `*Successfully downloaded ${pluginName} ✅*`,
             contextInfo: {
                 mentionedJid: [senderNumber],
@@ -107,7 +107,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
+                    newsletterName: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 🍁',
                     serverMessageId: 143
                 }
             }
