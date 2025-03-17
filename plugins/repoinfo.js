@@ -21,14 +21,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let repoInfo = `📁_*GITHUB REPOSITORY INFO BY ALI-MD-V1*_📁\n\n`;
+        let repoInfo = `📁_*GITHUB REPOSITORY INFO BY RAHEEL-MD-V1*_📁\n\n`;
         repoInfo += `📌 *ɴᴀᴍᴇ*: ${data.name}\n`;
         repoInfo += `🔗 *ᴜʀʟ*: ${data.html_url}\n`;
         repoInfo += `📝 *ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*: ${data.description}\n`;
         repoInfo += `⭐ *ꜱᴛᴀʀꜱ*: ${data.stargazers_count}\n`;
         repoInfo += `🍴 *ꜰᴏʀᴋꜱ*: ${data.forks_count}\n`;
         repoInfo += `\n`;
-        repoInfo += `*ALI-MD CREATION*\n`;
+        repoInfo += `*RAHEEL-MD CREATION*\n`;
 
         await conn.sendMessage(from, { text: repoInfo }, { quoted: mek });
     } catch (e) {
