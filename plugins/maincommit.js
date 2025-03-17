@@ -2,8 +2,8 @@ const { cmd } = require('../command'); // Assuming you have a command handler
 const axios = require('axios'); // For making HTTP requests to GitHub API
 
 // GitHub repository details
-const REPO_OWNER = 'itx-alii-raza';
-const REPO_NAME = 'ALI-MD';
+const REPO_OWNER = 'MIANG-8';
+const REPO_NAME = 'RAHEEL-MD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
 // GitHub API base URL
