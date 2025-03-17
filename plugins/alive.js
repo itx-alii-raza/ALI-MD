@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://i.ibb.co/60pdvSxw/mrfrankofc.jpg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://i.ibb.co/Zp4sXy4B/lordali.jpg"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
@@ -23,13 +23,13 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *ALI MD V1 STATUS* 🌟
+🌟 *RAHEEL MD V1 STATUS* 🌟
 Hey 👋🏻 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 
-*🤖sᴛᴀᴛᴜs*: *ᴀʟɪ-ᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
+*🤖sᴛᴀᴛᴜs*: *RAHEEL-ᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
 
 *🤍ᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ*
         `.trim();
@@ -49,7 +49,7 @@ Hey 👋🏻 ${pushname}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
+                    newsletterName: 'RAHEEL 𝐌Ɗ 🍁',
                     serverMessageId: 143
                 }
             }
