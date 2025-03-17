@@ -29,7 +29,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -106,7 +106,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: "𝐀ɭι̇ι̇ 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥",
+                    newsletterName: "𝐑𝐀𝐇𝐄𝐄𝐋 𝐌Ɗ 𝐏๏፝֟ƞ̽g  ⃪🤖͎᪳᪳𝆺𝅥",
                     serverMessageId: 143
                 }
             }
@@ -130,7 +130,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '\`ALI PINGING 🚀\`' })
+        const message = await conn.sendMessage(from, { text: '\`RAHEEL PINGING 🚀\`' })
         const endTime = Date.now()
         const ping = endTime - startTime
         await conn.sendMessage(from, { text: `*ALI PONGED ! : ${ping}ms ⚡*` }, { quoted: message })
