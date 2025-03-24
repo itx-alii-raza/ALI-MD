@@ -69,7 +69,7 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('9AYVjCyL#Bu3WU9egI5rl0gKWelXU_ipdReF5Bo1RPq4rtJ27t1s')
+if(!config.SESSION_ID) return console.log('8I4SATAD#uMe_PiEQO3P2_rMiRUfo3GCQD170axAoF7PUs7MfDrw')
 const sessdata = config.SESSION_ID.replace("ALI-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
