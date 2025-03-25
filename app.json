@@ -1,8 +1,8 @@
 {
   "name": "ALI-MD",
   "description": "Javascript WhatsApp bot made by ALI",
-  "logo": "https://cdn.ironman.my.id/i/2du3i5.jpg",
-  "keywords": ["ALI-MD"],
+  "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/377973ac-875b-45ae-9c57-f72c2dae3cd9/dhavpzb-d1873e1b-3e7c-4cab-8f2f-01b291af7b75.png/v1/fill/w_600,h_772,q_80,strp/anime_girl_porn_by_animefurryart_dhavpzb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3Nzk3M2FjLTg3NWItNDVhZS05YzU3LWY3MmMyZGFlM2NkOVwvZGhhdnB6Yi1kMTg3M2UxYi0zZTdjLTRjYWItOGYyZi0wMWIyOTFhZjdiNzUucG5nIiwiaGVpZ2h0IjoiPD03NzIiLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLndhdGVybWFyayJdLCJ3bWsiOnsicGF0aCI6Ilwvd21cLzM3Nzk3M2FjLTg3NWItNDVhZS05YzU3LWY3MmMyZGFlM2NkOVwvYW5pbWVmdXJyeWFydC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.hG-Urib3cuaMtuaiksQYXF0KkUH7paG2iVHvsxYmeg0",
+  "keywords": ["SUMON-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "VdwUDJKa#UHhIGyDMz9jUK3eRp7ZyDOAQIvB7fcCmfUSA8TbnVuM"
     },  
     
     "STICKER_NAME": {
@@ -79,7 +79,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW ALI-MD 🍒*"
+      "value": "*SEEN YOUR STATUS JUST NOW SUMON ROY 🍒*"
    
      }, 
 
@@ -93,7 +93,7 @@
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://cdn.ironman.my.id/i/2du3i5.jpg" 
+      "value": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/377973ac-875b-45ae-9c57-f72c2dae3cd9/dhavpzb-d1873e1b-3e7c-4cab-8f2f-01b291af7b75.png/v1/fill/w_600,h_772,q_80,strp/anime_girl_porn_by_animefurryart_dhavpzb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3Nzk3M2FjLTg3NWItNDVhZS05YzU3LWY3MmMyZGFlM2NkOVwvZGhhdnB6Yi1kMTg3M2UxYi0zZTdjLTRjYWItOGYyZi0wMWIyOTFhZjdiNzUucG5nIiwiaGVpZ2h0IjoiPD03NzIiLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLndhdGVybWFyayJdLCJ3bWsiOnsicGF0aCI6Ilwvd21cLzM3Nzk3M2FjLTg3NWItNDVhZS05YzU3LWY3MmMyZGFlM2NkOVwvYW5pbWVmdXJyeWFydC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.hG-Urib3cuaMtuaiksQYXF0KkUH7paG2iVHvsxYmeg0" 
       },
 
     "DELETE_LINK": {
@@ -141,8 +141,8 @@
     
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
-      "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+      "required": true,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍,🥵,😂,🤬"
     }, 
     
     "ANTI_DEL_PATH": {
