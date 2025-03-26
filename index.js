@@ -174,7 +174,7 @@ const port = process.env.PORT || 9090;
       } 
     }, { statusJidList: [mek.key.participant, jawadlike] });
   }                       
-  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "false"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
   await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
@@ -259,31 +259,31 @@ const port = process.env.PORT || 9090;
 					return;
 				}
  //================ownerreact==============
-    if(senderNumber.includes("923248394167")){
+    if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("😈")
     }
-if(senderNumber.includes("923248394167")){
+if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("☠")
 	  }
-	  if(senderNumber.includes("923248394167")){
+	  if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("👑")
 	  }
-	  if(senderNumber.includes("923248394167")){
+	  if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("😎")
 	  }
-	  if(senderNumber.includes("923248394167")){
+	  if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("👻")
 	  }
-	  if(senderNumber.includes("923248394167")){
+	  if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("😝")
 	  }
-	  if(senderNumber.includes("923248394167")){
+	  if(senderNumber.includes("923106054794")){
   if(isReact) return
   m.react("😇")
 	  }
