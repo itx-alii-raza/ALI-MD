@@ -1,12 +1,12 @@
 {
-  "name": "ALI-MD",
+  "name": "SG-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By ALI",
+  "description": "A WhatsApp Bot Created By SG",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
-    "stop": "pm2 stop ALI-MD",
-    "restart": "pm2 restart ALI-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SG-MD",
+    "stop": "pm2 stop SG-MD",
+    "restart": "pm2 restart SG-MD"
   },
   "dependencies": {
     "@bochilteam/scraper": "3.0.0",
