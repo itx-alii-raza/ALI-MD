@@ -26,7 +26,7 @@ ANTI_LINK: process.env.ANTI_LINK || "false",
 ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
 // make anti link true,false for groups 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
@@ -46,7 +46,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "918250547820",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "DERK SOUMYA",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀",
+DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву 🅓︎🅔︎🅡︎🅚︎ 🆂︎🅾︎🆄︎🅼︎🆈︎🅰︎⎯꯭̽💀",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -57,7 +57,7 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 ANTI_BOT: process.env.ANTI_BOT || "true",
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "on",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -66,7 +66,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
