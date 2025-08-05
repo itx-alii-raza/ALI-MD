@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~mBVjCYxI#3wrFckN1aFLzZeFq6-ELIe8nh6zFVcWB12PKoT24KVA",  
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,13 +13,13 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW DERK-SOUMYA 👻*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
-ADMIN_EVENTS: process.env.ADMIN_ACTION || "false",
+ADMIN_EVENTS: process.env.ADMIN_ACTION || "true",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups
@@ -42,9 +42,9 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "918250547820",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI INXIDE",
+OWNER_NAME: process.env.OWNER_NAME || "DERK SOUMYA",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀",
 // add alive msg here 
@@ -55,14 +55,14 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
