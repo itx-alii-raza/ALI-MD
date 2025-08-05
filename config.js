@@ -21,7 +21,7 @@ GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_ACTION || "true",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups
 ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
