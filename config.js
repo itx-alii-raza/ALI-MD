@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~KQUBgAYZ#NWPNvx1jV7vyn49cj4Bg7wJxPBqONdFLP-Z8qfNDuLo",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~PI81EQQZ#qH-YsqEESGdodSvVD5Z0jvqrDOkDwP6ONH1vSmf7ULk",  
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW SUMIT 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW SOUMYA 👻*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
@@ -30,7 +30,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
-PREFIX: process.env.PREFIX || ".", 
+PREFIX: process.env.PREFIX || "🫵🏻", 
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ALI-MD",
 // add bot namw here for menu
